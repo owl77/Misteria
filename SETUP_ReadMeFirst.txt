@@ -7,7 +7,7 @@ Server with a Unix-like OS (it was tested on Termux/Android)
 SSH
 Python 3.7-8
 
-It can also be played also on a local network (wlan).
+It can also be played on a local network (wlan).
 
 Setup:
 
