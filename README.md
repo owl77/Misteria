@@ -15,12 +15,12 @@ Clone the repository
 Check file permissions 
 > python init.py (initialise or reset the game)
 > sshd (or equivalent command to start ssh daemon, if necessary)
-Set up a .bashrc file, something like:
+Set up a .bashrc file, containing something like:
 
------------- .bashrc ----------------
+
 figlet Misteria
 python3.8 path_to_folder/main.py
--------------------------------------
+
 
 There are also security issues that need to be addressed to prevent players from gaining access to the program files (such as by using scp). 
 But once main.py is running the keyboard interrupts are all disabled.
