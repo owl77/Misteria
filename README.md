@@ -13,8 +13,9 @@ Setup:
 
 Clone the repository 
 Check file permissions 
-> python init.py (initialise or reset the game)
-> sshd (or equivalent command to start ssh daemon, if necessary)
+
+ python init.py (initialise or reset the game)
+ sshd (or equivalent command to start ssh daemon, if necessary)
 Set up a .bashrc file, containing something like:
 
 
