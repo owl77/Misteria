@@ -206,7 +206,7 @@ def mainloop():
    print("Drop <object>")
    print("Items : list inventory")
    print("Who : list of active users")
-   print("Tell <recipient> <message> : send message to someone. Can be heard by everone in the room.")
+   print("Tell <recipient> <message> : send message to someone. Can be heard by everyone in the room.")
    print("N,S,W,E: go North, South, West, East")
    print("Quit")
    print("")
