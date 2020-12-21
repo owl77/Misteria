@@ -3,7 +3,7 @@ import classes
 
 start = classes.MapElement("Start")
 
-start.description ="You are in a spacious lounge on the top floor of very high building.\nThe bright windows look out onto an ocean where an island can be perceived in the distance.\nThe room is carpeted and there a plenty of comfortable sofas.\nTo the west is the door to the terrace.\nTo the east there is the elevator."
+start.description ="You are in a spacious lounge on the top floor of very high building.\nThe bright windows look out onto an ocean where an island can be perceived in the distance.\nThe room is carpeted and there are plenty of comfortable sofas.\nTo the west is the door to the terrace.\nTo the east there is an elevator."
 start.go["west"] ="Terrace"
 start.go["east"] ="Elevator"
 
