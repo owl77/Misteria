@@ -5,7 +5,7 @@ Requirements:
 
 Server with a Unix-like OS (it was tested on Termux/Android)
 SSH
-Python 3.7-8
+Python 3.5-8
 
 It can also be played on a local network (wlan).
 
@@ -13,7 +13,7 @@ Setup:
 
 Clone the repository 
 Check file permissions 
-> python init.py (initialise or reset the game)
+> python init.py (initialise or reset the game). This is not a process. It initialises pickled state files.
 > sshd (or equivalent command to start ssh daemon, if necessary)
 Set up a .bashrc file, something like:
 
@@ -21,6 +21,15 @@ Set up a .bashrc file, something like:
 figlet Misteria
 python3.8 path_to_folder/main.py
 -------------------------------------
+
+Note that ssh may not source .bashrc whenlogging in. Make sure you have:
+
+cat .bash_profile
+
+if [ -f ~/.bashrc ]; then
+  . ~/.bashrc
+fi
+
 
 There are also security issues that need to be addressed to prevent players from gaining access to the program files (such as by using scp). 
 But once main.py is running the keyboard interrupts are all disabled.
