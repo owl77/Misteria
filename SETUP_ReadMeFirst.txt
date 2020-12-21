@@ -22,7 +22,7 @@ figlet Misteria
 python3.8 path_to_folder/main.py
 -------------------------------------
 
-Note that ssh may not source .bashrc whenlogging in. Make sure you have:
+Note that ssh may not source .bashrc when logging in. Make sure you have:
 
 cat .bash_profile
 
