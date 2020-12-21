@@ -153,7 +153,7 @@ def look(l):
  print("")
  print("")
  print("")  
- print(" *==*==*==* "+l+ " *==*==*==*")
+ print("        *==*==*==* "+l+ " *==*==*==*")
  print("")
  print("")
  print("")
